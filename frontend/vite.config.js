@@ -14,6 +14,9 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: 4173,
-    allowedHosts: 'all'
+    allowedHosts: [
+      'confident-communication-production-6fbf.up.railway.app',
+      'all'
+    ]
   }
 })
